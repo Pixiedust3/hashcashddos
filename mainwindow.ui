@@ -20,6 +20,9 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color:#2A2E31;</string>
+   </property>
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
@@ -75,6 +78,9 @@
            <height>41</height>
           </rect>
          </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #1F2120;</string>
+         </property>
          <property name="html">
           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -120,6 +126,9 @@ li.checked::marker { content: &quot;\2612&quot;; }
            <width>391</width>
            <height>70</height>
           </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #1F2120;</string>
          </property>
         </widget>
        </widget>
@@ -215,18 +224,69 @@ font: 800 11pt &quot;Ubuntu&quot;;</string>
          <string>Server Side</string>
         </property>
        </widget>
-       <widget class="QScrollBar" name="verticalScrollBar">
+       <widget class="QFrame" name="frame_5">
         <property name="geometry">
          <rect>
-          <x>200</x>
-          <y>180</y>
-          <width>16</width>
-          <height>160</height>
+          <x>10</x>
+          <y>90</y>
+          <width>441</width>
+          <height>171</height>
          </rect>
         </property>
-        <property name="orientation">
-         <enum>Qt::Orientation::Vertical</enum>
+        <property name="styleSheet">
+         <string notr="true">background-color: #1F2120;</string>
         </property>
+        <property name="frameShape">
+         <enum>QFrame::Shape::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>10</y>
+           <width>101</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Status</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QFrame" name="frame_6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>300</y>
+          <width>441</width>
+          <height>331</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #1F2120;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Shape::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label_7">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>10</y>
+           <width>101</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Result</string>
+         </property>
+        </widget>
        </widget>
       </widget>
      </item>
