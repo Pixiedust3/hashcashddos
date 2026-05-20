@@ -1,15 +1,30 @@
 #ifndef TCPSERVER_H
 #define TCPSERVER_H
-#include<QTcpServer>
+#include <QTcpServer>
+#include <QTcpSocket>
+#include"vector"
 
-class QTcpServer{
+class QTcpServer : public Qobject{
+Q_OBJECT
 
 public:
-QTcpServer(QObject *parent = nullptr);
-hasPendingConnections() const
+
+ explicit QTcpServer(QObject *parent = nullptr);
+
+bool hasPendingConnections() const
 {}
-isListening() const
+bool isListening() const
 {}
+void QTcpServer::closed()
+{}
+private:
+
+QTcpServer* mserver_;
+std::vector<QTcpSocket> msocket_;
+
+
+
 
 };
+
 #endif // TCPSERVER_H
