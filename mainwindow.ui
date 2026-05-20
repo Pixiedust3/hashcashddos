@@ -23,7 +23,7 @@
    <property name="styleSheet">
     <string notr="true">background-color:#2A2E31;</string>
    </property>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -44,8 +44,8 @@
        <widget class="QLabel" name="label">
         <property name="geometry">
          <rect>
-          <x>30</x>
-          <y>20</y>
+          <x>20</x>
+          <y>160</y>
           <width>91</width>
           <height>17</height>
          </rect>
@@ -58,7 +58,7 @@
         <property name="geometry">
          <rect>
           <x>10</x>
-          <y>100</y>
+          <y>190</y>
           <width>491</width>
           <height>271</height>
          </rect>
@@ -136,7 +136,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <property name="geometry">
          <rect>
           <x>10</x>
-          <y>410</y>
+          <y>490</y>
           <width>491</width>
           <height>171</height>
          </rect>
@@ -200,6 +200,47 @@ font: 800 11pt &quot;Ubuntu&quot;;</string>
           <string>Multiple Requests</string>
          </property>
         </widget>
+       </widget>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>50</y>
+          <width>161</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Ubuntu</family>
+          <pointsize>11</pointsize>
+          <italic>false</italic>
+          <fontweight>ExtraBold</fontweight>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #3679df;
+font: 800 11pt &quot;Ubuntu&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Start Server</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>60</y>
+          <width>191</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 700 17pt &quot;Ubuntu&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Start the server</string>
+        </property>
        </widget>
       </widget>
      </item>

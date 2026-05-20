@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-33b1ff7b7b2734e76e79.json",
+					"jsonFile" : "directory-.-Debug-9ccaf6fe17e2c476dab9.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "NTC_ddos::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NTC_ddos-Debug-62633c795903072cca8d.json",
+					"jsonFile" : "target-NTC_ddos-Debug-223df742ec8f575a9cb1.json",
 					"name" : "NTC_ddos",
 					"projectIndex" : 0
 				},
