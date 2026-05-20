@@ -19,5 +19,9 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+
+private slots:
+    void onStartServerButtonClicked();
 };
 #endif // MAINWINDOW_H
