@@ -6,9 +6,12 @@ class QTcpServer{
 
 public:
 QTcpServer(QObject *parent = nullptr);
-hasPendingConnections() const
+
+bool hasPendingConnections() const
 {}
-isListening() const
+bool isListening() const
+{}
+void QTcpServer::closed()
 {}
 
 };
