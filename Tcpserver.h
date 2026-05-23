@@ -4,13 +4,13 @@
 #include <QTcpSocket>
 #include"vector"
 
-class QTcpServer : public Qobject{
+class HashcashServer : public Qobject{
 Q_OBJECT
 
 public:
 
-explicit QTcpServer(QObject *parent = nullptr);
-~QTcpServer();
+explicit HashcashServer(QObject *parent = nullptr);
+~HashcashServer();
 bool hasPendingConnections() const
 {}
 bool isListening() const
@@ -21,9 +21,6 @@ private:
 
 QTcpServer* mserver_;
 std::vector<QTcpSocket> msocket_;
-
-
-
 
 };
 
