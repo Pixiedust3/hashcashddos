@@ -9,8 +9,8 @@ Q_OBJECT
 
 public:
 
- explicit QTcpServer(QObject *parent = nullptr);
-
+explicit QTcpServer(QObject *parent = nullptr);
+~QTcpServer();
 bool hasPendingConnections() const
 {}
 bool isListening() const
