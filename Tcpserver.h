@@ -20,7 +20,7 @@ void QTcpServer::closed()
 private:
 
 QTcpServer* mserver_;
-std::vector<QTcpSocket> msocket_;
+std::vector<QTcpSocket&> msocket_;
 
 };
 
